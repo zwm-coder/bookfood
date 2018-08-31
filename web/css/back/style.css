@@ -1,0 +1,92 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.uk-button-success{
+    background-color: #32d296;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.container > .left {
+    flex: 0 0 300px;
+    height: 100%;
+    background: #4f5976;
+}
+.left > .title {
+    border-bottom: 1px solid #666666;
+    height: 60px;
+    text-align: center;
+}
+.left > .title h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 60px;
+ }
+.left ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.left ul li.item {
+    padding: 20px 50px;
+}
+.item.active {
+    background: #3d465e;
+}
+.item:hover {
+    background: #3d465e;
+}
+.left ul li.item a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    padding-right: 20px;
+}
+.container > .right {
+    flex: 1;
+    height: 100%;
+    background: #ebebeb;
+    position: relative;
+}
+.right > .top-nav {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+}
+.right > .top-nav .content {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+.top-nav .content a {
+    color: #4f5976;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.content-container {
+    position: absolute;
+    top: 80px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: #ffffff;
+    overflow-y: auto;
+}
+.content-container .title h3{
+    width: 100%;
+    background: #ebebeb;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px;
+}
